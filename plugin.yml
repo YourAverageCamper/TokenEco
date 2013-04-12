@@ -1,0 +1,17 @@
+name: NagTokens
+version: 1.0
+author: ZeusAllMighty11
+description: Token economy
+main: me.zeus.TokenEco.TokenEco
+commands:
+  tokens-add:
+    description: Add tokens to specified online player
+    aliases: [tadd, addtokens]
+  tokens-remove:
+    description: Remove tokens from a specified online player
+    aliases: [tremove, removetokens, taketokens]
+  tokens-set:
+    description: Set tokens for specified player
+    aliases: [tset, settokens]
+  tokens:
+    description: Show current token balance
